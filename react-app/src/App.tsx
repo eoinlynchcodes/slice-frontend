@@ -1,12 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-
-// Placeholder components for each route
-const Home = () => <h1>Home Page</h1>;
-const Signup = () => <h1>Signup Page</h1>;
-const Login = () => <h1>Login Page</h1>;
-const Results = () => <h1>Results Page</h1>;
+import Home from './Pages/Home.tsx';
+import Signup from './Pages/Signup.tsx';
+import Login from './Pages/Login.tsx';
+import Results from './Pages/Results.tsx';
 
 function App() {
   return (
